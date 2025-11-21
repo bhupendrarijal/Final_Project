@@ -9,7 +9,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load Model
-model = load_model(r'D:\Assignments\Image_Classification_model\Image_classification_model.keras')
+model = load_model("Image_classification_model.keras")
 
 # Page Background
 page_bg = """
